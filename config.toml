@@ -2,3 +2,15 @@ baseURL = 'https://apkgo.com.cn/'
 languageCode = 'zh-CN'
 title = 'apkgo Docs'
 theme = 'hugo-book'
+
+[menu]
+# [[menu.before]]
+[[menu.after]]
+  name = "Github"
+  url = "https://github.com/KevinGong2013/apkgo"
+  weight = 10
+
+
+[params]
+  BookTheme = 'auto'
+  BookSearch = false
